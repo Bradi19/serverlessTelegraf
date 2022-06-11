@@ -1,0 +1,10 @@
+const { TELEGRAM_TOKEN, TELEGRAM_USERS_TABLE_NAME } = process.env;
+
+export const CONFIG = {
+  TABLES: {
+    TELEGRAM_USERS: TELEGRAM_USERS_TABLE_NAME
+  },
+  TELEGRAM: {
+    TOKEN: TELEGRAM_TOKEN
+  }
+};
